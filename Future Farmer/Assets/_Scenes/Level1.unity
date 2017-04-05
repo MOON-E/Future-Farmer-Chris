@@ -397,6 +397,7 @@ MonoBehaviour:
   mainTimerDisplay: {fileID: 1992288600}
   restartMessageDisplay: {fileID: 0}
   gameOverScoreOutline: {fileID: 1514990530}
+  musicAudioSource: {fileID: 0}
   gameIsOver: 0
   playAgainButtons: {fileID: 1719927447}
   playAgainLevelToLoad: Level1
@@ -1892,7 +1893,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 413196, guid: f1698d511e2884c88bc628d80fefcfbe, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 413196, guid: f1698d511e2884c88bc628d80fefcfbe, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2522,6 +2523,14 @@ Prefab:
     - target: {fileID: 11400002, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 2}
       propertyPath: Name
       value: Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 2}
