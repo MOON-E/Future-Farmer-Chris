@@ -21,7 +21,7 @@ public class TargetMover : MonoBehaviour {
 		//gameObject.transform.Translate(Vector3.right * Time.deltaTime * motionMagnitude);
 		gameObject.transform.Rotate (Vector3.up * spinSpeed * Time.deltaTime);
 		var myObj = GameObject.Find("cat_Idle");
-		Debug.Log (gameObject.transform.position.z);
+		//debugDebug.Log (gameObject.transform.position.z);
 		//Debug.Log (myObj.transform.position.x);
 		if (myObj!=null && gameObject.transform.position.x - myObj.transform.position.x <=1 && gameObject.transform.position.z - myObj.transform.position.z <=1)
 			Destroy (myObj);

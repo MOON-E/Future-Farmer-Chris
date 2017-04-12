@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject gameOverScoreOutline;
 
-	public AudioSource musicAudioSource;
+//	public AudioSource musicAudioSource;
 
 	public bool gameIsOver = false;
 
@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour {
 		gameStartCanvas.SetActive (true);
 		mainCanvas.SetActive (false);
 
-		musicAudioSource.Stop ();
+//		musicAudioSource.Stop ();
 
 		// set the current time to the startTime specified
 		currentTime = startTime;
@@ -130,8 +130,8 @@ public class GameManager : MonoBehaviour {
 			playAgainButtons.SetActive (true);
 
 		// reduce the pitch of the background music, if it is set 
-		if (musicAudioSource)
-			musicAudioSource.pitch = 0.5f; // slow down the music
+//		if (musicAudioSource)
+//			musicAudioSource.pitch = 0.5f; // slow down the music
 
 		// disable movement of player when game over
 		player.GetComponent<CharacterController> ().enabled = false;
@@ -156,8 +156,8 @@ public class GameManager : MonoBehaviour {
 			nextLevelButtons.SetActive (true);
 		
 		// reduce the pitch of the background music, if it is set 
-		if (musicAudioSource)
-			musicAudioSource.pitch = 0.5f; // slow down the music
+//		if (musicAudioSource)
+//			musicAudioSource.pitch = 0.5f; // slow down the music
 	}
 
 	// public function that can be called to update the score or time
@@ -203,7 +203,7 @@ public class GameManager : MonoBehaviour {
 
 		hasGameStarted = true;
 
-		musicAudioSource.Play ();
+//		musicAudioSource.Play ();
 	}
 
 	public void LoadPreviousLevel ()

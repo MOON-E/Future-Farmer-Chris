@@ -19,7 +19,7 @@ Material:
     - first:
         name: _BackTex
       second:
-        m_Texture: {fileID: 2800000, guid: bad5a29ccf1a1413d9ac3c1686387858, type: 3}
+        m_Texture: {fileID: 2800000, guid: a6d0619a7d443a3419dc673e3afd916a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -49,7 +49,7 @@ Material:
     - first:
         name: _DownTex
       second:
-        m_Texture: {fileID: 2800000, guid: bad5a29ccf1a1413d9ac3c1686387858, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6b7c3e2dbc9de77409a75e02838ac08c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -61,13 +61,13 @@ Material:
     - first:
         name: _FrontTex
       second:
-        m_Texture: {fileID: 2800000, guid: bad5a29ccf1a1413d9ac3c1686387858, type: 3}
+        m_Texture: {fileID: 2800000, guid: 829da10e5b79a98458ca4d55f5288602, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _LeftTex
       second:
-        m_Texture: {fileID: 2800000, guid: bad5a29ccf1a1413d9ac3c1686387858, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4df92718ce65adb43a96a6193adaca56, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -103,7 +103,7 @@ Material:
     - first:
         name: _RightTex
       second:
-        m_Texture: {fileID: 2800000, guid: bad5a29ccf1a1413d9ac3c1686387858, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3a9af5d0bfef716468800c6f0396a0c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -121,7 +121,7 @@ Material:
     - first:
         name: _UpTex
       second:
-        m_Texture: {fileID: 2800000, guid: bad5a29ccf1a1413d9ac3c1686387858, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5d6ababd5b9f2054389b09e11efa8f93, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -209,4 +209,4 @@ Material:
       second: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
     - first:
         name: _Tint
-      second: {r: 1, g: 1, b: 0, a: 0.5}
+      second: {r: 1, g: 1, b: 1, a: 0.5}
