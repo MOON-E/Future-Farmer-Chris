@@ -531,14 +531,14 @@ PlayerSettings:
   cloudServicesEnabled:
     Analytics: 0
     Build: 0
-    Collab: 1
+    Collab: 0
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 1
+    UNet: 0
     Unity_Ads: 0
-  cloudProjectId: fca05d1d-0456-40c0-bc55-654baa477924
+  cloudProjectId: 15b32b86-4f1a-49a7-ba48-71edb1e37aca
   projectName: Box Shooter
-  organizationId: dvrayz
+  organizationId: moon-e
   cloudEnabled: 0
