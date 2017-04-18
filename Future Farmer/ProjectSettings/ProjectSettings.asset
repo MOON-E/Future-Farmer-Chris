@@ -536,7 +536,7 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   cloudProjectId: 15b32b86-4f1a-49a7-ba48-71edb1e37aca
   projectName: Box Shooter

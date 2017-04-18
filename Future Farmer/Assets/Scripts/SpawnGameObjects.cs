@@ -34,7 +34,7 @@ public class SpawnGameObjects : MonoBehaviour
 		// if time to spawn a new game object
 		if (Time.time  >= nextSpawnTime) {
 
-            Debug.Log("Hello");
+            //Debug.Log("Hello");
 
 			// Spawn the game object through function below
 			MakeThingToSpawn ();
